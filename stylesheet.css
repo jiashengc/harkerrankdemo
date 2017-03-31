@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+}
+
+ul {
+    display: flex;
+}
+
+li:hover {
+    flex-direction: row;
+    color: palegreen;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+button {
+    background-color: palegreen;
+    color: ghostwhite;
+}
+
+.testimonial p {
+    font-size: 30px;
+    color: dimgray;
+}
+
+.testimonial .dude {
+    color: black;
+    font-weight: bold;
+}
+
+.space {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    display: flex;
+}
+
+.links {
+    flex-direction: row;
+}
+
+.something {
+    height: 20vh;
+    background-color: gray;
+    color: white;
+}
+
+.privacyshit {
+    font-size: 10px;
+}
+
+.ads {
+    display: block;
+}
+
+.adsomething {
+    display: block;
+    width: 50vw;
+}
+
+.bigfatbold {
+    color: black;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+}
+
+.links p {
+    color: black;
+    flex-direction: column;
+}
+
+.fordevs {
+    color: palegreen;
+    background-color: white;
+}
+
+.fordevs:hover {
+    color: white;
+    background-color: palegreen;
+}
+
+.links p:hover {
+    color: palegreen;
+}
+
+.hiddenshit {
+    display: none;
+}
+
+.forcompanies:hover .hiddenshit {
+    display: block;
+    transition: all 0.5s;
+}
